@@ -1,6 +1,6 @@
 package offer.chapter4;
 
-import offer.chapter3.TreeNode;
+/*import offer.chapter3.TreeNode;*/
 
 /**
  * Created by ipc on 2017/7/2.
@@ -10,7 +10,7 @@ import offer.chapter3.TreeNode;
  *          递归左右子节点：左子节点当做根节点，继续递归；右子节点当作根节点，递归；
  */
 public class MirrorTreeNode {
-    public void Mirror(TreeNode root) {
+    /*public void Mirror(TreeNode root) {
         if(root.left==null && root.right==null){
             return;
         }
@@ -24,6 +24,6 @@ public class MirrorTreeNode {
             Mirror(root.right);//遍历右子树
 
 
-    }
+    }*/
 }
 
